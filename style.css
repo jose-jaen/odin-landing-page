@@ -1,0 +1,169 @@
+html, 
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.header .top,
+.header .welcome {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.header .top {
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.header .top .head-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header .top .head-links {
+    display: flex;
+    gap: 15px;
+    color: #E5E7EB;
+}
+
+.header .top .head-links a {
+    color: #E5E7EB;
+}
+
+.header .welcome .welc-title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.header .welcome .welc-subtext {
+    color: #E5E7EB;
+}
+
+.header .welcome .welc-img {
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    background-color: #6a6e76;
+}
+
+.boton1 {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.boton1 a {
+    color: white;
+}
+
+.random {
+    padding: 15px;
+}
+
+.random .info {
+    font-size: 36px;
+    font-weight: extra-bold;
+    text-align: center;
+    color: #1F2937;
+    margin-bottom: 30px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 45px;
+    margin-right: 45px,
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+.box-text {
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+}
+
+.quote {
+    padding: 80px;
+    background-color: #E5E7EB;
+}
+
+.quote .epic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quote .author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.footer {
+    padding: 60px;
+    background-color: white;
+}
+
+.footer-back {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: white;
+    background-color: #3882F6;
+}
+
+.footer .footer-back .action {
+    font-weight: bold;
+}
+
+.footer .footer-back .footer-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.boton2 {
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 9px;
+    background-color: #3882F6;
+}
+
+.boton2 a {
+    color: white;
+}
+
+.copyright {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
